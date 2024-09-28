@@ -69,6 +69,71 @@ body {
     font-size: 0.9rem; /* Slightly smaller font for the link */
 }
 
+
+/*-koushik-*/
+
+footer {
+    background-color: #111111;
+}
+
+.container {
+    display: flex;
+    height: 120vh;
+    width: 100%;
+    position:relative;
+}
+
+.container .social-links{
+    position:relative;
+    top: 0%;
+    display: flex;
+    justify-content: space-between;
+    width: 20%;
+    margin-left:0;
+    padding:0;
+}
+.details{
+    display:flex;
+    width: 80%;
+    margin-top:0;
+}
+.footer-section {
+    flex: 1 1 200px; /* allows sections to be responsive */
+    margin: 10px;
+    top:10%;
+
+}
+
+
+.footer-section h6 {
+    margin-bottom: 10px;
+    border-bottom: 2px solid #5c5c5c;
+    padding-bottom: 5px;
+    font-size: medium;
+    font-weight:700;
+    color:#5c5c5c;
+}
+
+.footer-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin: 5px 0;
+    color:white;
+    font-size: small;
+    font-weight: 450;
+}
+
+.footer-note {
+    text-align: center;
+    font-size: 0.8em;
+    margin-top: 20px;
+    color: #bbb;
+}
+/*-koushik-*/
+
 @media (max-width: 768px) {
     .hero {
         width: 100%; /* Full width on smaller screens */
