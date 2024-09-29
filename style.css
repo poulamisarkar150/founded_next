@@ -77,23 +77,25 @@ body {
 footer {
     background-color: #111111;
 }
+.footer-content{
+    color:white;
+    margin-bottom:40px;
+}
+.logo{
+    padding:  20px 0px;
+}
 
 .container {
     display: flex;
-    height: 120vh;
+    height: 160vh;
     width: 100%;
     position:relative;
 }
 
-.container .social-links{
+.footer-content .social-links{
     position:relative;
-    top: 0%;
-    display: flex;
-    justify-content: space-between;
-    width: 20vw;
-    height: 60px;
-    margin-left:0;
-    padding:0;
+    gap:2px;
+    
 }
 .details{
     display:flex;
@@ -101,7 +103,7 @@ footer {
     margin-top:0;
 }
 .footer-section {
-    flex: 1 1 200px; /* allows sections to be responsive */
+    flex: 1 1 200px; 
     margin: 10px;
     top:10%;
 
@@ -113,7 +115,7 @@ footer {
     border-bottom: 2px solid #5c5c5c;
     padding-bottom: 5px;
     font-size: medium;
-    font-weight:700;
+    font-weight:300;
     color:#5c5c5c;
 }
 
@@ -126,7 +128,7 @@ footer {
     margin: 5px 0;
     color:white;
     font-size: small;
-    font-weight: 450;
+    font-weight: 350;
 }
 
 .footer-note {
@@ -135,7 +137,8 @@ footer {
     margin-top: 20px;
     color: #bbb;
 }
-/*-koushik-*/
+
+ /*-koushik-*/
 
 @media (max-width: 768px) {
     .hero {
@@ -146,8 +149,27 @@ footer {
     
     
     /* Koushik */
+    
+    footer{
+       padding: 20px 20px; 
+    }
+    .container img{
+        align-items: left;
+        justify-content: left;
+    }
     .container .social-links{
-        display: block;
-        flex-direction: column;
+        position: relative;
+        display: flex;
+        flex-direction: row;
+    }
+    .container{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap:40px;
+    }
+    .footer-note{
+       position:relative; 
     }
 }
+
+  
