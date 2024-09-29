@@ -1,11 +1,13 @@
 *{
     margin: auto;
     padding: auto;
+    box-sizing: border-box;
 }
 
 body {
     margin: 0;
     font-family: 'Arial', sans-serif; /* Change to your preferred font */
+    overflow-x :hidden;
 }
 
 .hero {
@@ -88,7 +90,8 @@ footer {
     top: 0%;
     display: flex;
     justify-content: space-between;
-    width: 20%;
+    width: 20vw;
+    height: 60px;
     margin-left:0;
     padding:0;
 }
@@ -138,5 +141,13 @@ footer {
     .hero {
         width: 100%; /* Full width on smaller screens */
         height: auto; /* Adjust height for smaller screens */
+    }
+    
+    
+    
+    /* Koushik */
+    .container .social-links{
+        display: block;
+        flex-direction: column;
     }
 }
