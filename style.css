@@ -1,3 +1,4 @@
+/* <<<<<<< HEAD */
 .hero_start_challange_btn__fv1Tc {
     position: relative;
     overflow: hidden;
@@ -14398,3 +14399,181 @@ svg {
 
 /*------- RESPONSIVE-------- */
 
+/* ======= */
+*{
+    margin: auto;
+    padding: auto;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif; /* Change to your preferred font */
+    overflow-x :hidden;
+}
+
+.hero {
+    background: linear-gradient(to right, rgba(99, 91, 255, 0.8), rgba(99, 91, 255, 0.5)), url('your-background-image-url') no-repeat center center;
+    background-size: cover;
+    color: white;
+    padding: 60px 20px;
+    width: 60%; /* Cover 60% of the width */
+    height: 100vh; /* Full height of the viewport */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative; /* For positioning elements */
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.hero h1 {
+    font-size: 2.5rem; /* Adjust as needed */
+    line-height: 1.2;
+    margin: 20px 0; /* Space around the heading */
+}
+
+.hero .badge {
+    font-size: 1rem;
+    margin-bottom: 20px; /* Space below the badge */
+}
+
+.feature {
+    margin: 0 10px; /* Margin around each feature */
+}
+
+.feature-icon {
+    width: 48px; /* Increased icon size */
+    height: 48px;
+}
+
+.btn-primary {
+    background-color: #635BFF; /* Primary button color */
+    border: none;
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+.btn-primary:hover {
+    background-color: #4a49d8; /* Darker shade on hover */
+}
+
+.btn-outline-light {
+    border: 2px solid rgba(255, 255, 255, 0.5); /* Light outline */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition */
+}
+
+.btn-outline-light:hover {
+    background-color: rgba(255, 255, 255, 0.2); /* Light background on hover */
+    color: white; /* Change text color on hover */
+}
+
+.trustpilot-widget {
+    margin-top: 30px;
+    font-size: 0.9rem; /* Slightly smaller font for the link */
+}
+
+
+/*-koushik-start-*/
+
+footer {
+    background-color: #111111;
+}
+.footer-content{
+    color:white;
+    margin-bottom:40px;
+}
+.logo{
+    padding:  20px 0px;
+}
+
+.container {
+    display: flex;
+    height: 160vh;
+    width: 100%;
+    position:relative;
+}
+
+.footer-content .social-links{
+    position:relative;
+    gap:2px;
+    
+}
+.details{
+    display:flex;
+    width: 80%;
+    margin-top:0;
+}
+.footer-section {
+    flex: 1 1 200px; 
+    margin: 10px;
+    top:10%;
+
+}
+
+
+.footer-section h6 {
+    margin-bottom: 10px;
+    border-bottom: 2px solid #5c5c5c;
+    padding-bottom: 5px;
+    font-size: medium;
+    font-weight:300;
+    color:#5c5c5c;
+}
+
+.footer-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin: 5px 0;
+    color:white;
+    font-size: small;
+    font-weight: 350;
+}
+
+.footer-note {
+    text-align: center;
+    font-size: 0.8em;
+    margin-top: 20px;
+    color: #bbb;
+}
+
+ /*--koushik-end--*/
+
+@media (max-width: 768px) {
+    .hero {
+        width: 100%; /* Full width on smaller screens */
+        height: auto; /* Adjust height for smaller screens */
+    }
+    
+    
+    /*--Koushik-start--*/
+    
+    footer{
+       padding: 20px 20px; 
+    }
+    .container img{
+        align-items: left;
+        justify-content: left;
+    }
+    .container .social-links{
+        position: relative;
+        display: flex;
+        flex-direction: row;
+    }
+    .container{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap:40px;
+    }
+    .footer-note{
+       position:relative; 
+    }
+}
+  /*--Koushik-end--*/
+
+
+  
+/* >>>>>>> d63e70f11ff63af45ef013c9b2923d673bdaa2a8 */
